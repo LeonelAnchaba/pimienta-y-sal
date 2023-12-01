@@ -47,8 +47,8 @@
           <h1 class="ps-center">Nuentro Menu</h1>
           <br />
           <% productos.forEach(producto => { %>
-            <a href="/detalle/<%- producto.id %>"
-          <h4><%= producto.nombre %></h4>
+            <a href="/detalle/<%- producto.id %>">
+          <h4> <%= producto.nombre %></h4>
           <p class="ps-text-grey">
             <%= producto.descripcion ? producto.descripcion : "Plato típico" %> U$S <%= producto.precio %>
           </p>
